@@ -3,7 +3,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-467ca739 # Amazon Linux AMI in N.Virginia
+      ImageId: ami-0d08fa65f81355d86 # Amazon Linux AMI
       Tags:
         - Key: Name
           Value: Sogeti Test
